@@ -1,0 +1,8 @@
+{
+  "connector": {
+    "defaultNode": "tabview",
+    "enabled": true,
+    "type": "NodeConnector"
+  },
+  "name": "default"
+}

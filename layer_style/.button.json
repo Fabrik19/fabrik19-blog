@@ -1,0 +1,9 @@
+{
+  "name": ".button",
+  "content": {
+    "borderColor": "#0896cb",
+    "borderWidth": "2pt",
+    "shadowElevation": 2,
+    "value": "#FFFFFF"
+  }
+}

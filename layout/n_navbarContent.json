@@ -1,0 +1,94 @@
+{
+  "name": "n_navbarContent",
+  "layers": [
+    {
+      "type": "container",
+      "children": [
+        {
+          "type": "color",
+          "value": "#ffffff",
+          "constraints": [
+            {
+              "type": "pos",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "type": "size",
+              "width": "100%",
+              "height": "100%"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "backIcon",
+          "dataKey": "backIcon",
+          "value": "fa-chevron-left",
+          "font": "FontAwesome",
+          "fontSize": "30",
+          "scaleType": "alignCenter",
+          "hidden": true,
+          "constraints": [
+            {
+              "type": "pos",
+              "anchor": "w",
+              "relativeAnchor": "w",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "type": "size",
+              "width": "60pt",
+              "height": "100%"
+            }
+          ]
+        },
+        {
+          "type": "color",
+          "name": "bottomBorder",
+          "value": "#DDDDDD",
+          "constraints": [
+            {
+              "type": "pos",
+              "anchor": "s",
+              "relativeAnchor": "s",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "type": "size",
+              "width": "100%",
+              "height": "1pt"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "navBarLabel1",
+          "value": "<b>Fabrik</b>19",
+          "classes": [
+            "text",
+            "fabrik_logo"
+          ],
+          "constraints": [
+            {
+              "type": "pos",
+              "relativeAnchor": "c",
+              "anchor": "c",
+              "x": "0",
+              "y": "0"
+            }
+          ]
+        }
+      ],
+      "constraints": [
+        {
+          "type": "size",
+          "height": "100%",
+          "width": "100%"
+        }
+      ]
+    }
+  ]
+}

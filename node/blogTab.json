@@ -1,0 +1,44 @@
+{
+  "content": {
+    "blogSmartList": {
+      "itemActions": [
+        {
+          "type": "showLayout",
+          "params": {
+            "layout": "c_blogDetail",
+            "template": "blogDetail",
+            "table": "blog",
+            "query": "byID",
+            "queryParams": [
+              "{[ID]}"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "previewData": {},
+  "events": [],
+  "title": "Blog",
+  "viewType": "layered",
+  "style": {
+    "content": {
+      "default": {
+        "layoutName": {
+          "default": "c_blogTabContent"
+        },
+        "navbarDisabled": false,
+        "navbarLayout": {
+          "default": "n_navbarContent"
+        },
+        "tabbarHighlightColor": "#AAAAAA",
+        "tabbarForegroundColor": "#222222"
+      }
+    },
+    "preview": {
+      "default": {
+        "titleFont": "Raleway-Bold"
+      }
+    }
+  }
+}

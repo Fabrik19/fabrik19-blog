@@ -1,0 +1,25 @@
+{
+  "name": "blogDetail",
+  "content": {
+    "title": {
+      "value": "{{post_title}}"
+    },
+    "author": {
+      "value": "{{author}} ({{post_date}} {{post_time}})"
+    },
+    "content": {
+      "value": "{{post_content}}"
+    },
+    "image": {
+      "value": "{{thumbnail}}"
+    },
+    "backIcon": {
+      "hidden": "false",
+      "actions": [
+        {
+          "type": "backInHistory"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "content": {
+    "leftButton": {
+      "actions": [
+        {
+          "type": "openBrowser",
+          "params": {
+            "url": "https://fabrik19.de/team"
+          }
+        }
+      ]
+    },
+    "rightButton": {
+      "actions": [
+        {
+          "type": "openBrowser",
+          "params": {
+            "url": "https://fabrik19.de/jobs"
+          }
+        }
+      ]
+    }
+  },
+  "title": "Start",
+  "viewType": "layered",
+  "style": {
+    "content": {
+      "default": {
+        "layoutName": {
+          "default": "c_homeTabContent"
+        },
+        "navbarDisabled": false,
+        "navbarLayout": {
+          "default": "n_navbarContent"
+        },
+        "tabbarHighlightColor": "#AAAAAA",
+        "tabbarForegroundColor": "#222222"
+      }
+    },
+    "preview": {
+      "default": {
+        "titleFont": "Raleway-Bold"
+      }
+    }
+  }
+}

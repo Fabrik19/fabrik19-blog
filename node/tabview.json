@@ -1,0 +1,22 @@
+{
+  "title": "Tab View",
+  "trackingKey": "tabView",
+  "viewType": "tabView",
+  "nodes": [
+    "homeTab",
+    "blogTab"
+  ],
+  "extras": {
+    "isRootNode": true
+  },
+  "style": {
+    "content": {
+      "default": {
+        "tabbarLocation": "Bottom",
+        "navbarDisabled": true,
+        "tabbarHeights": "80dp",
+        "navbarHeights": "100dp"
+      }
+    }
+  }
+}

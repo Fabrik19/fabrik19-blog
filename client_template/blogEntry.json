@@ -1,0 +1,17 @@
+{
+  "name": "blogEntry",
+  "content": {
+    "titleText": {
+      "value": "{{post_title}}"
+    },
+    "thumbnail": {
+      "value": "{{thumbnail}}"
+    },
+    "dateLabel": {
+      "value": "{{post_date}} {{post_time}}"
+    },
+    "authorLabel": {
+      "value": "{{author}}"
+    }
+  }
+}
