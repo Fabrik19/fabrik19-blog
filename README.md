@@ -20,4 +20,4 @@ The Fabrik19 Blog App demonstrates basic features of mos:
 
 ---
 
-© Copyright Fabrik19 GmbH
+© Copyright Fabrik19 AG
