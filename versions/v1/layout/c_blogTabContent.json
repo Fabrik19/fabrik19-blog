@@ -1,0 +1,47 @@
+{
+  "name": "c_blogTabContent",
+  "layers": [
+    {
+      "type": "color",
+      "name": "backgroundColor",
+      "classes": [
+        "fullSize",
+        "background"
+      ]
+    },
+    {
+      "type": "grid",
+      "classes": [
+        "fullSize"
+      ],
+      "children": [
+        {
+          "type": "insert",
+          "source": "query",
+          "sourceParams": {
+            "table": "blog",
+            "query": "all",
+            "layout": "s_blogEntry",
+            "template": "blogEntry",
+            "columnSpan": 12,
+            "height": "310pt"
+          }
+        }
+      ],
+      "constraints": [
+        {
+          "type": "pos",
+          "x": "0",
+          "y": "0"
+        },
+        {
+          "type": "pos",
+          "anchor": "se",
+          "relativeAnchor": "se",
+          "x": "0",
+          "y": "0"
+        }
+      ]
+    }
+  ]
+}

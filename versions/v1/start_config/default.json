@@ -1,0 +1,9 @@
+{
+  "name": "default",
+  "content": {
+    "type": "tab",
+    "staticTemplate": "tabView",
+    "templateIsNode": true,
+    "namedStyle": "tab"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": ".card",
+  "content": {
+    "borderRadius": "10pt",
+    "shadowElevation": 2
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": ".button",
+  "content": {
+    "borderRadius": "25pt",
+    "shadowElevation": 2
+  }
+}

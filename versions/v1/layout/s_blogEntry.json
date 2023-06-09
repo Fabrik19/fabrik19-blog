@@ -1,0 +1,129 @@
+{
+  "name": "s_blogEntry",
+  "layers": [
+    {
+      "type": "container",
+      "name": "blogEntryContainer",
+      "dataKey": "blogEntryContainer",
+      "children": [
+        {
+          "type": "color",
+          "classes": [
+            "fullSize",
+            "background"
+          ]
+        },
+        {
+          "type": "image",
+          "name": "thumbnail",
+          "fallbackImage": "asset://blogFallback.png",
+          "dataKey": "thumbnail",
+          "scaleType": "scaleAspectFill",
+          "constraints": [
+            {
+              "type": "pos",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "type": "size",
+              "width": "100%",
+              "height": "200pt"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "titleText",
+          "dataKey": "titleText",
+          "classes": [
+            "h4"
+          ],
+          "constraints": [
+            {
+              "type": "pos",
+              "relativeAnchor": "sw",
+              "relativeTo": "thumbnail",
+              "anchor": "nw",
+              "x": "20pt",
+              "y": "20pt"
+            },
+            {
+              "type": "pos",
+              "relativeAnchor": "e",
+              "anchor": "e",
+              "x": "-20pt"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "dateLabel",
+          "dataKey": "dateLabel",
+          "classes": [
+            "subtitle"
+          ],
+          "constraints": [
+            {
+              "type": "pos",
+              "relativeAnchor": "sw",
+              "anchor": "nw",
+              "relativeTo": "titleText",
+              "x": "0",
+              "y": "20pt"
+            },
+            {
+              "type": "pos",
+              "relativeAnchor": "e",
+              "anchor": "e",
+              "x": "-20pt"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "authorLabel",
+          "dataKey": "authorLabel",
+          "scaleType": "alignRight",
+          "classes": [
+            "subtitle"
+          ],
+          "constraints": [
+            {
+              "type": "pos",
+              "relativeAnchor": "se",
+              "anchor": "ne",
+              "relativeTo": "titleText",
+              "x": "0",
+              "y": "20pt"
+            },
+            {
+              "type": "pos",
+              "x": "20pt"
+            }
+          ]
+        }
+      ],
+      "classes": [
+        "card"
+      ],
+      "constraints": [
+        {
+          "type": "pos",
+          "x": "10pt",
+          "y": "5pt"
+        },
+        {
+          "type": "pos",
+          "anchor": "e",
+          "relativeAnchor": "e",
+          "x": "-10pt"
+        },
+        {
+          "type": "size",
+          "height": "300pt"
+        }
+      ]
+    }
+  ]
+}

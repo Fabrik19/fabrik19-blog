@@ -1,0 +1,294 @@
+{
+  "name": "c_homeTabContent",
+  "layers": [
+    {
+      "type": "color",
+      "name": "backgroundColor",
+      "classes": [
+        "fullSize",
+        "background"
+      ]
+    },
+    {
+      "type": "container",
+      "name": "scrollContainer",
+      "scroll": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "name": "text1",
+          "value": "$lang(homeTitle)$",
+          "scaleType": "alignCenter",
+          "classes": [
+            "h1"
+          ],
+          "constraints": [
+            {
+              "type": "pos",
+              "x": "5pt",
+              "y": "40pt"
+            },
+            {
+              "type": "pos",
+              "anchor": "e" ,
+              "relativeAnchor": "e",
+              "x": "-5pt"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "text2",
+          "value": "$lang(homeSubtitle)$",
+          "scaleType": "alignCenter",
+          "classes": [
+            "h2"
+          ],
+          "constraints": [
+            {
+              "type": "pos",
+              "relativeAnchor": "sw",
+              "relativeTo": "text1",
+              "x": "0",
+              "y": "50pt"
+            },
+            {
+              "type": "pos",
+              "anchor": "e" ,
+              "relativeAnchor": "e",
+              "x": "-5pt"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "name": "leftButton",
+          "dataKey": "leftButton",
+          "classes": [
+            "button"
+          ],
+          "children": [
+            {
+              "type": "color",
+              "name": "aboutUsButtonBg",
+              "classes": [
+                "fullSize",
+                "buttonBackground"
+              ]
+            },
+            {
+              "type": "text",
+              "name": "aboutUsButtonLabel",
+              "value": "$lang(buttonAboutUs)$",
+              "scaleType": "alignCenter",
+              "classes": [
+                "button_text"
+              ],
+              "constraints": [
+                {
+                  "type": "pos",
+                  "anchor": "nw",
+                  "relativeAnchor": "nw",
+                  "relativeTo": "aboutUsButtonBg",
+                  "x": "0",
+                  "y": "0"
+                },
+                {
+                  "type": "pos",
+                  "anchor": "se",
+                  "relativeAnchor": "se",
+                  "relativeTo": "aboutUsButtonBg",
+                  "x": "0",
+                  "y": "0"
+                }
+              ]
+            }
+          ],
+          "constraints": [
+            {
+              "type": "pos",
+              "relativeTo": "text2",
+              "anchor": "n",
+              "relativeAnchor": "s",
+              "y": "50pt"
+            },
+            {
+              "type": "pos",
+              "x": "10pt"
+            },
+            {
+              "type": "pos",
+              "anchor": "e",
+              "relativeAnchor": "n",
+              "x": "-10pt"
+            },
+            {
+              "type": "size",
+              "height": "50pt"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "name": "rightButton",
+          "dataKey": "rightButton",
+          "classes": [
+            "button"
+          ],
+          "children": [
+            {
+              "type": "color",
+              "name": "jobsButtonBg",
+              "classes": [
+                "fullSize",
+                "buttonBackground"
+              ]
+            },
+            {
+              "type": "text",
+              "name": "jobsButtonLabel",
+              "value": "$lang(buttonJobs)$",
+              "scaleType": "alignCenter",
+              "classes": [
+                "button_text"
+              ],
+              "constraints": [
+                {
+                  "type": "pos",
+                  "anchor": "nw",
+                  "relativeAnchor": "nw",
+                  "relativeTo": "jobsButtonBg",
+                  "x": "0",
+                  "y": "0"
+                },
+                {
+                  "type": "pos",
+                  "anchor": "se",
+                  "relativeAnchor": "se",
+                  "relativeTo": "jobsButtonBg",
+                  "x": "0",
+                  "y": "0"
+                }
+              ]
+            }
+          ],
+          "constraints": [
+            {
+              "type": "pos",
+              "relativeTo": "text2",
+              "anchor": "n",
+              "relativeAnchor": "s",
+              "y": "50pt"
+            },
+            {
+              "type": "pos",
+              "relativeAnchor": "n",
+              "x": "10pt"
+            },
+            {
+              "type": "pos",
+              "anchor": "e",
+              "relativeAnchor": "e",
+              "x": "-10pt"
+            },
+            {
+              "type": "size",
+              "height": "50pt"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "text3",
+          "value": "$lang(homeText1)$",
+          "classes": [
+            "text",
+            "h3"
+          ],
+          "constraints": [
+            {
+              "type": "pos",
+              "anchor": "n",
+              "relativeAnchor": "s",
+              "relativeTo": "leftButton",
+              "y": "50pt"
+            },
+            {
+              "type": "pos",
+              "anchor": "w",
+              "relativeAnchor": "w",
+              "x": "20pt"
+            },
+            {
+              "type": "pos",
+              "anchor": "e",
+              "relativeAnchor": "e",
+              "x": "-20pt"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "text4",
+          "value": "$lang(homeText2)$",
+          "classes": [
+            "text"
+          ],
+          "constraints": [
+            {
+              "type": "pos",
+              "anchor": "n",
+              "relativeAnchor": "s",
+              "relativeTo": "text3",
+              "y": "10pt"
+            },
+            {
+              "type": "pos",
+              "anchor": "w",
+              "relativeAnchor": "w",
+              "x": "20pt"
+            },
+            {
+              "type": "pos",
+              "anchor": "e",
+              "relativeAnchor": "e",
+              "x": "-20pt"
+            }
+          ]
+        },
+        {
+          "type": "color",
+          "name": "spacer",
+          "constraints": [
+            {
+              "type": "pos",
+              "anchor": "n",
+              "relativeAnchor": "s",
+              "relativeTo": "text4",
+              "y": "0"
+            },
+            {
+              "type": "size",
+              "width": "100%",
+              "height": "20pt"
+            }
+          ]
+        }
+      ],
+      "constraints": [
+        {
+          "type": "pos",
+          "x": "0",
+          "y": "0"
+        },
+        {
+          "type": "pos",
+          "relativeAnchor": "se",
+          "anchor": "se",
+          "x": "0",
+          "y": "0"
+        }
+      ]
+    }
+  ]
+}

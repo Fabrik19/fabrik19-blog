@@ -1,0 +1,9 @@
+{
+  "name": ".background",
+  "content": {
+    "value": {
+      "light": "#fafafaF2",
+      "dark": "#1c1c1eF2"
+    }
+  }
+}

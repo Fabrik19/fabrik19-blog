@@ -1,0 +1,125 @@
+{
+  "name": "c_blogDetail",
+  "layers": [
+    {
+      "type": "color",
+      "name": "backgroundColor",
+      "classes": [
+        "fullSize",
+        "background"
+      ]
+    },
+    {
+  		"type": "container",
+  		"name": "scrollContainer",
+  		"scroll": "vertical",
+      "children": [
+        {
+          "type": "image",
+          "name": "image",
+          "dataKey": "image",
+          "scaleType": "scaleAspectFill",
+          "fallbackImage": "asset://blogFallback.png",
+          "constraints": [
+            {
+              "type": "pos",
+              "x": "0",
+              "y": "0"
+            },
+            {
+              "type": "size",
+              "width": "100%",
+              "height": "200pt"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "title",
+          "dataKey": "title",
+          "classes": [
+            "text",
+            "h3"
+          ],
+          "constraints": [
+            {
+              "type": "pos",
+              "relativeTo": "image",
+              "relativeAnchor": "sw",
+              "x": "20pt",
+              "y": "20pt"
+            },
+            {
+              "type": "pos",
+              "relativeAnchor": "e",
+              "anchor": "e",
+              "x": "-20pt"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "author",
+          "dataKey": "author",
+          "classes": [
+            "subtitle"
+          ],
+          "constraints": [
+            {
+              "type": "pos",
+              "relativeTo": "title",
+              "relativeAnchor": "sw",
+              "x": "0pt",
+              "y": "20pt"
+            },
+            {
+              "type": "pos",
+              "relativeTo": "title",
+              "relativeAnchor": "e",
+              "anchor": "e",
+              "x": "0pt"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "content",
+          "dataKey": "content",
+          "classes": [
+            "html"
+          ],
+          "constraints": [
+            {
+              "type": "pos",
+              "relativeTo": "author",
+              "relativeAnchor": "sw",
+              "x": "0pt",
+              "y": "20pt"
+            },
+            {
+              "type": "pos",
+              "relativeTo": "author",
+              "relativeAnchor": "e",
+              "anchor": "e",
+              "x": "0pt"
+            }
+          ]
+        }
+      ],
+  		"constraints": [
+        {
+          "type": "pos",
+          "x": "0",
+          "y": "0"
+        },
+        {
+          "type": "pos",
+          "relativeAnchor": "se",
+          "anchor": "se",
+          "x": "0",
+          "y": "0"
+        }
+      ]
+  	}
+  ]
+}

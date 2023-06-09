@@ -1,0 +1,50 @@
+{
+  "name": "blogEntry",
+  "content": {
+    "blogEntryContainer": {
+      "actions": [
+        {
+          "type": "showLayout",
+          "leadingDelimiter": "{$",
+          "trailingDelimiter": "$}",
+          "dynamicParams": {
+            "target": {
+              "left": {
+                "context": "device",
+                "field": "os"
+              },
+              "right": {
+                "value": "android"
+              },
+              "mode": "equal",
+              "trueValue": "view",
+              "falseValue": "tabActive"
+            }
+          },
+          "params": {
+            "target": "{$target$}",
+            "layout": "c_blogDetail",
+            "template": "blogDetail",
+            "table": "blog",
+            "query": "byID",
+            "queryParams": [
+              "{{ID}}"
+            ]
+          }
+        }
+      ]
+    },
+    "titleText": {
+      "value": "{{post_title}}"
+    },
+    "thumbnail": {
+      "value": "{{thumbnail}}"
+    },
+    "dateLabel": {
+      "value": "{{post_date}} {{post_time}}"
+    },
+    "authorLabel": {
+      "value": "{{author}}"
+    }
+  }
+}

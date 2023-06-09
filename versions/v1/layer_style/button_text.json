@@ -1,0 +1,8 @@
+{
+  "name": ".button_text",
+  "content": {
+    "fontSize": "20pt",
+    "font": "Raleway-Bold",
+    "fontColor": "#ffffff"
+  }
+}

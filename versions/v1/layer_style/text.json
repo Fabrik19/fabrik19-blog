@@ -1,0 +1,12 @@
+{
+  "name": "text",
+  "content": {
+    "fontSize": "15pt",
+    "contentType": "plain",
+    "fontColor": {
+      "light": "#000000",
+      "dark": "#ffffff"
+    },
+    "font": "Raleway-Regular"
+  }
+}

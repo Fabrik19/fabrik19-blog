@@ -1,0 +1,49 @@
+{
+  "name": "blogTab",
+  "content": {
+    "content": {
+      "tabText": {
+        "value": "$lang(tabTitleBlog)$"
+      },
+      "tabIcon": {
+        "value": "fa-rss"
+      },
+      "tabIconActive": {
+        "value": "fa-rss",
+        "conditions": [
+          {
+            "state": "visible",
+            "conditions": {
+              "left": {
+                "context": "tabView",
+                "field": "currentTab"
+              },
+              "right": {
+                "value": 1
+              },
+              "mode": "equals"
+            }
+          }
+        ]
+      },
+      "tabTextActive": {
+        "value": "$lang(tabTitleBlog)$",
+        "conditions": [
+          {
+            "state": "visible",
+            "conditions": {
+              "left": {
+                "context": "tabView",
+                "field": "currentTab"
+              },
+              "right": {
+                "value": 1
+              },
+              "mode": "equals"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

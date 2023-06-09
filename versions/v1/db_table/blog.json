@@ -1,0 +1,71 @@
+{
+  "table": {
+    "name": "blog",
+    "fields": [
+      {
+        "name": "ID",
+        "type": "TEXT"
+      },
+      {
+        "name": "post_content",
+        "type": "TEXT"
+      },
+      {
+        "name": "post_title",
+        "type": "TEXT"
+      },
+      {
+        "name": "post_status",
+        "type": "TEXT"
+      },
+      {
+        "name": "post_date",
+        "type": "TEXT"
+      },
+      {
+        "name": "post_time",
+        "type": "TEXT"
+      },
+      {
+        "name": "sort_date",
+        "type": "TEXT"
+      },
+      {
+        "name": "category",
+        "type": "TEXT"
+      },
+      {
+        "name": "thumbnail",
+        "type": "TEXT"
+      },
+      {
+        "name": "author",
+        "type": "TEXT"
+      }
+    ],
+    "queries": {
+      "all": {
+        "custom": "SELECT * FROM blog WHERE post_status = 'publish' ORDER BY sort_date DESC"
+      },
+      "byID": {
+        "custom": "SELECT * FROM blog WHERE ID = ?1"
+      }
+    },
+    "primaryKey": [
+      "ID"
+    ]
+  },
+  "source": {
+    "type": "replace",
+    "request": {
+      "url": "https://proxy.mobilitysuite.de/fabrik19_blog.json"
+    },
+    "update": {
+      "type": "polling",
+      "durations": {
+        "standard": 600
+      },
+      "standardDuration": "standard"
+    }
+  }
+}

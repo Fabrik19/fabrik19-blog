@@ -1,0 +1,70 @@
+{
+  "name": "homeTab",
+  "content": {
+    "title": "Home",
+    "content": {
+      "tabText": {
+        "value": "$lang(tabTitleHome)$"
+      },
+      "tabIcon": {
+        "value": "fa-home"
+      },
+      "tabIconActive": {
+        "value": "fa-home",
+        "conditions": [
+          {
+            "state": "visible",
+            "conditions": {
+              "left": {
+                "context": "tabView",
+                "field": "currentTab"
+              },
+              "right": {
+                "value": 0
+              },
+              "mode": "equals"
+            }
+          }
+        ]
+      },
+      "tabTextActive": {
+        "value": "$lang(tabTitleHome)$",
+        "conditions": [
+          {
+            "state": "visible",
+            "conditions": {
+              "left": {
+                "context": "tabView",
+                "field": "currentTab"
+              },
+              "right": {
+                "value": 0
+              },
+              "mode": "equals"
+            }
+          }
+        ]
+      },
+      "leftButton": {
+        "actions": [
+          {
+            "type": "openBrowser",
+            "params": {
+              "url": "https://fabrik19.de/team/"
+            }
+          }
+        ]
+      },
+      "rightButton": {
+        "actions": [
+          {
+            "type": "openBrowser",
+            "params": {
+              "url": "https://fabrik19.de/jobs/"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

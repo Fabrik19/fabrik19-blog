@@ -1,0 +1,22 @@
+{
+  "name": "tabView",
+  "content": {
+    "title": "Tab View",
+    "content": {
+      "tabs": [
+        {
+          "layout": "c_homeTabContent",
+          "staticTemplate": "homeTab",
+          "templateIsNode": true,
+          "namedStyle": "default"
+        },
+        {
+          "layout": "c_blogTabContent",
+          "staticTemplate": "blogTab",
+          "templateIsNode": true,
+          "namedStyle": "default"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+    "name": "t_tabbar",
+    "layers": [
+        {
+            "type": "color",
+            "value": {
+              "light": "#fafafaF2",
+              "dark": "#1c1c1eF2"
+            },
+            "classes": [
+              "fullSize"
+            ]
+          },
+          {
+            "type": "text",
+            "dataKey": "tabIcon",
+            "value": "fa-home",
+            "font": "FontAwesome",
+            "fontColor": "#959595",
+            "scaleType": "alignCenter",
+            "fontSize": "30pt",
+            "constraints": [
+              {
+                "type": "pos",
+                "x": "0",
+                "y": "5pt"
+              },
+              {
+                "type": "pos",
+                "anchor": "e",
+                "relativeAnchor": "e",
+                "x": 0
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "dataKey": "tabText",
+            "value": "$lang(tabTitleHome)$",
+            "fontColor": "#959595",
+            "scaleType": "alignCenter",
+            "fontSize": "12pt",
+            "constraints": [
+              {
+                "type": "size",
+                "height": "14pt"
+              },
+              {
+                "type": "pos",
+                "x": 0,
+                "y": "-0pt",
+                "anchor": "sw",
+                "relativeAnchor": "sw"
+              },
+              {
+                "type": "pos",
+                "x": 0,
+                "anchor": "e",
+                "relativeAnchor": "e"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "dataKey": "tabIconActive",
+            "value": "fa-home",
+            "font": "FontAwesome",
+            "fontColor": "#357cf6",
+            "scaleType": "alignCenter",
+            "fontSize": "30pt",
+            "states": {
+              "visible": {
+                "hidden": false
+              }
+            },
+            "hidden": true,
+            "constraints": [
+              {
+                "type": "pos",
+                "x": "0",
+                "y": "5pt"
+              },
+              {
+                "type": "pos",
+                "anchor": "e",
+                "relativeAnchor": "e",
+                "x": 0
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "dataKey": "tabTextActive",
+            "value": "$lang(tabTitleHome)$",
+            "fontColor": "#357cf6",
+            "scaleType": "alignCenter",
+            "fontSize": "12pt",
+            "states": {
+              "visible": {
+                "hidden": false
+              }
+            },
+            "hidden": true,
+            "constraints": [
+              {
+                "type": "size",
+                "height": "14pt"
+              },
+              {
+                "type": "pos",
+                "x": 0,
+                "y": "-0pt",
+                "anchor": "sw",
+                "relativeAnchor": "sw"
+              },
+              {
+                "type": "pos",
+                "x": 0,
+                "anchor": "e",
+                "relativeAnchor": "e"
+              }
+            ]
+          }
+    ]
+}

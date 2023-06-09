@@ -1,0 +1,23 @@
+{
+  "name": "default",
+  "content": {
+    "content": {
+      "default": {
+        "tabbarLocation": "Bottom",
+        "navbarDisabled": false,
+        "tabbarHeights": {
+          "default": "56pt"
+        },
+        "tabbarLayout": "t_tabbar",
+        "navbarHeights": {
+          "default": "66pt"
+        },
+        "navbarLayout": {
+          "default": "n_navbarContent"
+        },
+        "tabbarHighlightColor": "#AAAAAA",
+        "tabbarForegroundColor": "#222222"
+      }
+    }
+  }
+}
